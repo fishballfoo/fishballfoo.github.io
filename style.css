@@ -1,0 +1,40 @@
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%
+}
+
+.navbar {
+	background-image: url(./bckgrd/cloudy-day.png);
+	font-family: "Roboto", sans-serif;
+}
+
+.jumbotron {
+	height: 500px;
+	background-size: cover;
+	background-image: url(./bckgrd/snorlaxheader.jpg);
+	background-repeat: no-repeat;
+}
+
+h1, h2 {
+	font-family: "Oswald", sans-serif;
+}
+
+h3 {
+	font-family: "Rock Salt", cursive;
+}
+
+.header-text {
+	color: #F8F290;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+}
+
+.food {
+	width: 200px;
+	overflow: hidden;
+}
