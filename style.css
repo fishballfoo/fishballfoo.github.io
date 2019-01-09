@@ -6,6 +6,10 @@
 	width: 100%
 }
 
+img {
+    image-orientation: from-image;
+}
+
 .navbar {
 	background-image: url(./bckgrd/cloudy-day.png);
 	font-family: "Roboto", sans-serif;
@@ -37,4 +41,8 @@ p {
 .food {
 	width: 200px;
 	overflow: hidden;
+}
+
+.affected-images img{
+	transform: rotate(90deg);
 }
